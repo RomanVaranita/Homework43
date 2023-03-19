@@ -24,7 +24,7 @@ public class ApartmentHouse extends House {
 
   @Override
   public void demolish() {
-    System.out.println( "Вы снесли многоквартирный дом. " + getEntrances() +" подъездов!" +getAddress());
+    System.out.println( "Вы снесли многоквартирный дом. " + getEntrances() +" подъездов! " +getAddress());
 
   }
 
