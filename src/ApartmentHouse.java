@@ -1,4 +1,7 @@
 public class ApartmentHouse extends House {
+
+//  Создайте классы "Частный дом" и "Многоквартирный дом" - наследники класса "Дом".
+//При создании многоквартирного дома дополнительно принимайте в конструкторе целое число - количество подъездов.
   private int entrances;
 
   public ApartmentHouse(String address, int entrances) {
@@ -14,13 +17,14 @@ public class ApartmentHouse extends House {
     this.entrances = entrances;
   }
 
+//В методе toString() выводите в удобном виде всю известную информацию о доме.
   public String toString() {
     return "ApartmentHouse " + getAddress() + "with " + entrances + "entrances";
   }
 
   @Override
   public void demolish() {
-    System.out.println("Вы снесли многоквартирный дом." + getAddress() + entrances);
+    System.out.printf("Вы снесли многоквартирный дом." + getAddress() + getAddress());
 
   }
 

@@ -1,6 +1,6 @@
 public class PrivateHouse extends House {
 
-
+//Создайте классы "Частный дом" и "Многоквартирный дом" - наследники класса "Дом".
   public PrivateHouse(String address) {
     super(address);
   }
