@@ -14,6 +14,7 @@ public class ApartmentHouse extends House {
   public void setEntrances(int entrances) {
     this.entrances = entrances;
   }
+
   public String toString() {
     return "ApartmentHouse " + getAddress() + "with " + entrances + "entrances";
   }
