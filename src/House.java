@@ -14,4 +14,8 @@ public abstract class House {
     this.address = address;
   }
 
+  public void demolish(String address) {
+  }
+
+  public abstract void demolish();
 }

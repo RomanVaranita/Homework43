@@ -19,4 +19,9 @@ public class PrivateHouse extends House {
   public String toString() {
     return super.getAddress();
   }
+
+  @Override
+  public void demolish() {
+    System.out.println("Вы снесли частный дом" + getAddress());
+  }
 }

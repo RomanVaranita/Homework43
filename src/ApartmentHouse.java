@@ -6,7 +6,6 @@ public class ApartmentHouse extends House {
     this.entrances = entrances;
   }
 
-
   public int getEntrances() {
     return entrances;
   }
@@ -18,4 +17,11 @@ public class ApartmentHouse extends House {
   public String toString() {
     return "ApartmentHouse " + getAddress() + "with " + entrances + "entrances";
   }
+
+  @Override
+  public void demolish() {
+    System.out.println("Вы снесли многоквартирный дом." + getAddress() + entrances);
+
+  }
+
 }

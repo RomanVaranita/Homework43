@@ -8,7 +8,7 @@ public class MainHouse {
 
     PrivateHouse privateHouse1 = new PrivateHouse("Ludwigstr 25");
     PrivateHouse privateHouse2 = new PrivateHouse("Roemerstr 11");
-    ApartmentHouse apartmentHouse = new ApartmentHouse("Haupstrasse 11",2);
+    ApartmentHouse apartmentHouse = new ApartmentHouse("Haupstrasse 11 ", 2);
 
     houses.add(privateHouse1);
     houses.add(privateHouse2);
@@ -16,6 +16,7 @@ public class MainHouse {
 
     for (House house : houses) {
       System.out.println(house.toString());
+      house.demolish();
     }
   }
 }
