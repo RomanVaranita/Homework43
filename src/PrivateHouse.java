@@ -22,6 +22,6 @@ public class PrivateHouse extends House {
 
   @Override
   public void demolish() {
-    System.out.println("Вы снесли частный дом" + getAddress());
+    System.out.println("Вы снесли частный дом " + getAddress());
   }
 }

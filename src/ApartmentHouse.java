@@ -19,12 +19,12 @@ public class ApartmentHouse extends House {
 
 //В методе toString() выводите в удобном виде всю известную информацию о доме.
   public String toString() {
-    return "ApartmentHouse " + getAddress() + "with " + entrances + "entrances";
+    return "ApartmentHouse " + getAddress() + "with " + entrances + " entrances";
   }
 
   @Override
   public void demolish() {
-    System.out.println( "Вы снесли многоквартирный дом. " + getEntrances() +"подъездов!" +getAddress());
+    System.out.println( "Вы снесли многоквартирный дом. " + getEntrances() +" подъездов!" +getAddress());
 
   }
 
